@@ -1,8 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
-**Code**
-
-def compare_weights():
+**Code**  
+'def compare_weights():  
     live, firsts, others = first.MakeFrames()
     firsts_mean = firsts.totalwgt_lb.mean()
     others_mean = others.totalwgt_lb.mean()
@@ -20,13 +19,13 @@ def compare_preg_length():
     print(compare_weights())
     
     #compare pregnancy length of first vs other babies
-    print(compare_preg_length())
+    print(compare_preg_length())'
 
-**Results**
-(7.201094430437772, 7.325855614973262, -0.088672927072602)
+**Results**  
+(7.201094430437772, 7.325855614973262, -0.088672927072602)  
 (38.60095173351461, 38.52291446673706, 0.028879044654449883)
 
-**Explanation**
+**Explanation**  
 We can see that the mean weight of first babies is ~7.2 lbs, while the mean 
 weight of non-first babies is ~7.3 lbs. So, first babies tend to be slightly
 heavier. However, this difference of .1 lbs feels rather insigificant. This
