@@ -1,25 +1,27 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
 **Code**  
-'def compare_weights():  
-    live, firsts, others = first.MakeFrames()
-    firsts_mean = firsts.totalwgt_lb.mean()
-    others_mean = others.totalwgt_lb.mean()
+```
+def compare_weights():  
+    live, firsts, others = first.MakeFrames()  
+    firsts_mean = firsts.totalwgt_lb.mean()  
+    others_mean = others.totalwgt_lb.mean()  
     cohen_effect = thinkstats2.CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
-    return firsts_mean, others_mean, cohen_effect
+    return firsts_mean, others_mean, cohen_effect  
 
-def compare_preg_length():
-    live, firsts, others = first.MakeFrames()
-    firsts_mean = firsts.prglngth.mean()
-    others_mean = others.prglngth.mean()
-    cohen_effect = thinkstats2.CohenEffectSize(firsts.prglngth, others.prglngth)
-    return firsts_mean, others_mean, cohen_effect
+def compare_preg_length():  
+    live, firsts, others = first.MakeFrames()  
+    firsts_mean = firsts.prglngth.mean()  
+    others_mean = others.prglngth.mean()  
+    cohen_effect = thinkstats2.CohenEffectSize(firsts.prglngth, others.prglngth)  
+    return firsts_mean, others_mean, cohen_effect  
     
     #compare weight of first and other babies
     print(compare_weights())
     
     #compare pregnancy length of first vs other babies
-    print(compare_preg_length())'
+    print(compare_preg_length())
+```
 
 **Results**  
 (7.201094430437772, 7.325855614973262, -0.088672927072602)  
