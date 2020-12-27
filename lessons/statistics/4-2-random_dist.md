@@ -15,9 +15,9 @@ thinkplot.Show(xlabel='percentile rank', ylabel='CDF')
 ```
 
 **Results**  
-![PMF of random distribution](https://github.com/mattsegall/dsp/blob/master/lessons/statistics/chap04_ex2_pmf.png)
+![PMF of random distribution](https://github.com/mattsegall/dsp/blob/master/lessons/statistics/images/chap04_ex2_pmf.png)
 
-![CDF of random distribution](https://github.com/mattsegall/dsp/blob/master/lessons/statistics/chap04_ex2_cdf.png)
+![CDF of random distribution](https://github.com/mattsegall/dsp/blob/master/lessons/statistics/images/chap04_ex2_cdf.png)
 
 **Explanation**  
 Based on the PDF's nearly perfectly straight top line of the grpah with a 0 slope, we can seems

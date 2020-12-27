@@ -26,9 +26,9 @@ print('Biased/observed mean children in household', pmf_biased.Mean())
 **Results**  
 Actual mean children in household 1.024205155043831
 
-![PMF of actual distribution of children in household](https://github.com/mattsegall/dsp/blob/master/lessons/statistics/chap03_ex1_fig1.png)
+![PMF of actual distribution of children in household](https://github.com/mattsegall/dsp/blob/master/lessons/statistics/images/chap03_ex1_fig1.png)
 
 Biased mean children in household 2.403679100664282
 
-![PMF of biased distribution of children in household](https://github.com/mattsegall/dsp/blob/master/lessons/statistics/chap03_ex1_fig2.png)
+![PMF of biased distribution of children in household](https://github.com/mattsegall/dsp/blob/master/lessons/statistics/images/chap03_ex1_fig2.png)
 
