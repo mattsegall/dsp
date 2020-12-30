@@ -1,4 +1,4 @@
-# Statistics
+# [Statistics
 
 # Table of Contents
 
@@ -90,7 +90,15 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >>
 >> P(Id) = 1/300
 >>
->> P(Id | Boy) =  (1/300) / [1/300 +(1/2)*(1/125)] = 5/11
+>> P(Id | Boy) =   [P(B | Id) * P(Id)] / P(B)
+>>
+>> ​				 = [P(B | Id) * P(Id)] / [P(B | Id) P(Id) + P(B | Frat) P(Frat)]
+>>
+>> ​				 =   (1)(1/300) / [(1)(1/300) + (1/2)(1/125)
+>>
+>> ​				 = (1/300) / (1/300 + 1/250)
+>>
+>> ​				 = 5/11
 
 ---
 
